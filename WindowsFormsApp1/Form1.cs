@@ -46,5 +46,11 @@ namespace WindowsFormsApp1
             n = listBox1.Items.Count + 1;
             listBox1.Items.Add("This is line number " + n +".");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            textBox1.Clear();
+        }
     }
 }
