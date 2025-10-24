@@ -39,37 +39,44 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(65, 12);
+            this.textBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox1.Location = new System.Drawing.Point(98, 19);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 314);
+            this.textBox1.Size = new System.Drawing.Size(370, 488);
             this.textBox1.TabIndex = 0;
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.Highlight;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(476, 11);
+            this.listBox1.ItemHeight = 25;
+            this.listBox1.Location = new System.Drawing.Point(714, 17);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.MultiColumn = true;
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(241, 308);
+            this.listBox1.Size = new System.Drawing.Size(360, 479);
             this.listBox1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(65, 353);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button1.Location = new System.Drawing.Point(98, 552);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(248, 23);
+            this.button1.Size = new System.Drawing.Size(372, 36);
             this.button1.TabIndex = 2;
             this.button1.Text = "Clear TextBox";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(65, 398);
+            this.button2.Location = new System.Drawing.Point(98, 622);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(248, 23);
+            this.button2.Size = new System.Drawing.Size(372, 36);
             this.button2.TabIndex = 3;
             this.button2.Text = "Add new Text to a TextBox";
             this.button2.UseVisualStyleBackColor = true;
@@ -77,9 +84,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(476, 353);
+            this.button3.Location = new System.Drawing.Point(714, 552);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(241, 23);
+            this.button3.Size = new System.Drawing.Size(362, 36);
             this.button3.TabIndex = 4;
             this.button3.Text = "Clear ListBox";
             this.button3.UseVisualStyleBackColor = true;
@@ -87,12 +95,14 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(476, 398);
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button4.Location = new System.Drawing.Point(714, 622);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(241, 23);
+            this.button4.Size = new System.Drawing.Size(362, 36);
             this.button4.TabIndex = 5;
             this.button4.Text = "Add new line of text to a ListBox";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
@@ -107,8 +117,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1200, 703);
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -117,6 +128,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
